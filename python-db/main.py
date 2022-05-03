@@ -10,7 +10,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import filedialog
 from turtle import width
-from PIL import ImageTk,Image 
+from PIL import ImageTk,Image
 
 from click import option
 from requests import head
@@ -194,11 +194,11 @@ def viewFasilitas():
     btn_cancel = Button(frame, text="Kembali", anchor="w", command=lambda:[top.destroy(), root.deiconify()])
     btn_cancel.grid(row=0, column=0, padx=10, pady=10, sticky="w")
 
-    img1 = '/media/driskimaulana/New Volume/UPI/SEMESTER 4/DPBO/Python/python-db/images/aula.jpg'
-    img2 = '/media/driskimaulana/New Volume/UPI/SEMESTER 4/DPBO/Python/python-db/images/lab_komputer.jpg'
-    img3 = '/media/driskimaulana/New Volume/UPI/SEMESTER 4/DPBO/Python/python-db/images/locker.jpg'
-    img4 = '/media/driskimaulana/New Volume/UPI/SEMESTER 4/DPBO/Python/python-db/images/perpustakaan.jpg'
-    img5 = '/media/driskimaulana/New Volume/UPI/SEMESTER 4/DPBO/Python/python-db/images/reading_room.png'
+    img1 = '/media/driskimaulana/New Volume/UPI/SEMESTER 4/DPBO/Python/TP3DPBO2022/python-db/images/aula.jpg'
+    img2 = '/media/driskimaulana/New Volume/UPI/SEMESTER 4/DPBO/Python/TP3DPBO2022/python-db/images/lab_komputer.jpg'
+    img3 = '/media/driskimaulana/New Volume/UPI/SEMESTER 4/DPBO/Python/TP3DPBO2022/python-db/images/locker.jpg'
+    img4 = '/media/driskimaulana/New Volume/UPI/SEMESTER 4/DPBO/Python/TP3DPBO2022/python-db/images/perpustakaan.jpg'
+    img5 = '/media/driskimaulana/New Volume/UPI/SEMESTER 4/DPBO/Python/TP3DPBO2022/python-db/images/reading_room.png'
 
     # list image
     image_list = [img1, img2, img3, img4, img5]
