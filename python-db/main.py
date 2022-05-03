@@ -173,14 +173,6 @@ def viewAll():
         label6 = Label(tableFrame, text=data[5], borderwidth=1, relief="solid", height=2, width=50, padx=5).grid(row=i+1, column=5)
         i += 1
 
-def openfilename():
- 
-    # open file dialog box to select image
-    # The dialogue box has a title "Open"
-    filename = filedialog.askopenfilename(title ='"reading_room')
-    print(filename)
-    return filename
-
 # Window fasilitas kampus
 def viewFasilitas():
     global root
